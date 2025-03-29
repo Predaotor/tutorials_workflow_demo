@@ -2,4 +2,4 @@ django
 gunicorn
 djangorestframework
 pytest
-pytest-djangos
+pytest-django
