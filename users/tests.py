@@ -13,7 +13,7 @@ def test_user(db, django_user_model):
     return "test_username", "test_password"
 
 def test_login_users(client, test_user):
-    test_username, test_password=test_user, 
+    test_username, test_password=test_user
     login_results=client.login(username=test_username, password=test_password)
     assert login_results==True 
     
